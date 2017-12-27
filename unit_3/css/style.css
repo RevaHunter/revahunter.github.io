@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+	background:url("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg");
+	background-size:cover;
+	color:#fff;
+	font-family:Helvetica;
+}
+hr{
+	width:400px;
+	color:#fff;
+}
+h1{
+	font-size:64px;
+}
+
+h2{
+	text-align: right;
+	color:#A7E8DC;
+}
+
+
+p{
+	font-size:22px;
+	text-align:right;
+}
+ul{
+	text-align: right;
+}
+li{
+
+}
+
+
+a{
+	color:#78FFF4;
+}
+
+
+.slogan{
+	text-orientation: italic;
+
+}
+
+
