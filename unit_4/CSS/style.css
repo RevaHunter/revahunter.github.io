@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans:600|Poppins:200');
+nav{
+	display:inline-block;
+	width:60px;
+	font-size:20px;
+	color:#78FFF4;
+}
+
+			
+body{
+	text-align: center;
+	background:url("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg");
+	background-size:cover;
+	color:#fff;
+	font-family:Helvetica;
+}
+
+hr{
+	width:400px;
+	color:#fff;
+}
+
+
+h1{
+	font-size:64px;
+	font-family: 'Expletus Sans', cursive;
+}
+
+h2{
+	text-align: center;
+	color:#A7E8DC;
+}
+h4{
+	text-align: center;
+}
+
+
+p{
+	font-size:22px;
+	text-align:right;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	display: inline-block; 
+}
+.offer{
+	font-size:40px;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+}
+div{
+	display:inline-block;
+	margin: 80px;
+}
+
+a{
+	color:#78FFF4;
+}
+
+.slogan{
+	text-orientation: italic;
+
+}
+
+
