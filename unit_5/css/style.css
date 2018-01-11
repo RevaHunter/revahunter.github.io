@@ -9,8 +9,8 @@ nav{
 			
 body{
 	text-align: center;
-	background:url("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg");
-	background-size:contain;
+	background-size:cover;
+	background-image: ("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg");
 	color:#fff;
 	font-family:Helvetica;
 }
@@ -18,6 +18,20 @@ body{
 hr{
 	width:400px;
 	color:#fff;
+}
+header{
+	background-color: #FFED74;
+}
+
+nav{
+	background-color: #E8C66A;
+}
+aside{
+	background-repeat: #FFC675;
+}
+
+article{
+	background-color: #E89C6C;
 }
 
 
@@ -32,6 +46,7 @@ h2{
 }
 footer{
 	text-align: center;
+	background-color: #FF957E
 }
 
 
@@ -52,6 +67,7 @@ ul{
 div{
 	display:inline-block;
 	margin: 40px;
+	background-color: #FFE2B8;
 }
 
 a{
