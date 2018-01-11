@@ -9,7 +9,8 @@ nav{
 			
 body{
 	text-align: center;
-	background-size:contain;
+	background-size:cover;
+	background-image: ("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg");
 	color:#fff;
 	font-family:Helvetica;
 }
