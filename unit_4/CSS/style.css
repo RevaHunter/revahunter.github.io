@@ -44,12 +44,14 @@ p{
 ul{
 	display: inline-block; 
 }
-.offer{
-	font-size:50px;
+#offer{
+	font-size:64px;
 	display: inline-block;
 	font-family: 'Poppins', sans-serif;
+	float:left;
 }
 div{
+	font-size:1.2em;
 	display:inline-block;
 	margin: 40px;
 }
@@ -58,7 +60,7 @@ a{
 	color:#78FFF4;
 }
 
-.slogan{
+#slogan{
 	text-orientation: italic;
 
 }

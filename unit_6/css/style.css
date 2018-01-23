@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans:600|Poppins:200');
+
+			
+body{
+	text-align: center;
+	background-size:cover;
+	background-image: ("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg");
+	color:#fff;
+	font-family:Helvetica;
+}
+
+header{
+	background-color: #FFED74;
+}
+
+nav{
+	font-size:1.8em;
+	float:right;
+}
+nav a{
+	background-color: #E8C66A;
+	color:white;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 20px;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height:0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+
+}
+aside{
+	background-repeat: #FFC675;
+}
+
+article{
+	background-color: #E89C6C;
+}
+
+h1,h2{
+	text-transform: uppercase;
+	border-bottom:4px solid teal;
+	display:inline-block;
+	font-weight:400;
+}
+
+h1{
+	font-size:64px;
+	font-family: 'Expletus Sans', cursive;
+}
+
+h2{
+	text-align: center;
+	color:#A7E8DC;
+	font-size:18px;
+
+}
+footer{
+	text-align: center;
+	background-color: #FF957E
+}
+
+
+p{
+	font-size:28px;
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 80px;
+}
+
+ul{
+	display: inline-block; 
+}
+.offer{
+	font-size:50px;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 30px;
+}
+div{
+	display:inline-block;
+	margin: 40px;
+	background-color: #FFE2B8;
+}
+
+
+
+.slogan{
+	text-orientation: italic;
+
+}
+
+
