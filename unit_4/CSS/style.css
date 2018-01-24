@@ -5,7 +5,10 @@ nav{
 	font-size:20px;
 	color:#78FFF4;
 }
+nav a{
+	color:#fff;
 
+}
 			
 body{
 	text-align: center;
@@ -44,12 +47,7 @@ p{
 ul{
 	display: inline-block; 
 }
-#offer{
-	font-size:64px;
-	display: inline-block;
-	font-family: 'Poppins', sans-serif;
-	float:left;
-}
+
 div{
 	font-size:1.2em;
 	display:inline-block;
@@ -59,9 +57,20 @@ div{
 a{
 	color:#78FFF4;
 }
+#columnleft {
+	font-size:64px;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	float:left;
+}
+#columnright{
 
+}
 #slogan{
 	text-orientation: italic;
+
+}
+footer{
 
 }
 
