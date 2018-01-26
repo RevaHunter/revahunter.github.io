@@ -4,30 +4,100 @@
 /*Add a black background color to the top navigation with white border*/
 .topnav{
 	display:inline-block;
-	width:80px;
-	font-size:30px;
+	width:100%;
+	font-size:17px;
 	color:#333;
-	margin:1.2em;
+	margin:5px;
 	border-bottom-color: #fff;
 	overflow: none;
+	float: left; 
+	background-color: #333;
+	padding:20px;
 }
 .topnav a{
 	color:#f2f2f2;
-	text-align:horizontal;
+	text-align:center;
 	padding:14px 16px;
 
 }
 .topnav a:hover{
 	background-color: #ddd;
 	color:violet;
+	padding: 10px;
 }
 
 /*color to the active/current link*/
 .topnav a.active{
-	background-color: #4CAF50;
+	background-color: ##fcfffe;
 	color:violet;
 }
-			
+
+.clearfix:after{
+	visibility:hidden;
+	display: block;
+	font-size:0;
+	content: "";
+	clear:both;
+	height:0;
+}
+.intro{
+	float:left;
+	background-color:#221054;
+	border-style: dotted;
+	border-color: #A7E8DC;
+	padding:10px;
+	margin:auto;
+}	
+
+.columnleft{
+	float:left;
+}
+.columnright{
+	float:right;
+
+}
+.coupon {
+    border: 5px dotted #bbb; /* Dotted border */
+    border-radius: 15px; /* Rounded border */
+    margin:none 0px; /* Center the coupon */
+    width: 250px;
+    float:left;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: #221054;
+    margin: 5px;
+
+}
+
+.promo {
+    background: #676277;
+    padding: 2px 16px;
+}
+
+.expire {
+    color: red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
 body{
 	text-align: center;
 	background:url("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg");
@@ -43,27 +113,25 @@ hr{
 
 
 h1{
-	font-size:64px;
+	font-size:54px;
 	font-family: 'Expletus Sans', cursive;
 }
 
 h2{
 	text-align: center;
 	color:#A7E8DC;
+	margin:10px;
 }
-h4{
-	text-align: center;
-}
-
 
 p{
-	font-size:28px;
-	text-align:center;
+	font-size:16px;
+	text-align:left;
 	font-family: 'Poppins', sans-serif;
 }
 
 ul{
 	display: inline-block; 
+	list-style: none;
 }
 
 div{
@@ -75,30 +143,44 @@ div{
 a{
 	color:#78FFF4;
 }
+
+
 #two_column{
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding:20px;
+	background-color: white;
+	border: 1px white solid;
+	padding:5px;
 
 }
-#left {
-	font-size:64px;
-	display: inline-block;
-	font-family: 'Poppins', sans-serif;
-	float:left;
+#top {
+	background-color:violet;
+	border:1px white solid;
+	padding:5px;
+	float:right;
+	width:62%;
 }
-#right{
-	background-color: #E55B88;
-	border:1px black solid;
-	padding:20px;
+
+#bottom{
+	background-color: #676277 ;
+	border:1px white solid;
+	padding:5px;
+	float:right;
+	width:62%;
 
 }
+
+
 #slogan{
 	text-orientation: italic;
+	font-size:18px;
+	font-family: 'Poppins', sans-serif;
+	margin: 5px
 
+}
 
 }
 footer{
+	text-align: center;
+	margin:1.2em;
 
 }
 
