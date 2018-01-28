@@ -100,8 +100,9 @@
 
 body{
 	text-align: center;
-	background:url('images/gradient_bckgrd.jpg') ;
-	background-size:contain;
+	background:url("https://pbs.twimg.com/media/CyAadkBXAAAHKt5.jpg") ;
+	background-size:cover ;
+	background-repeat:no-repeat;
 	color:#fff;
 	font-family:Helvetica;
 }
@@ -149,6 +150,7 @@ footer{
 	text-orientation: italic;
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
+	margin:2px;
 }
 #columnleft{
 	background-color: #4eed4e;
