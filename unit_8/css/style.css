@@ -11,7 +11,7 @@
 	border-bottom-color: #fff;
 	overflow: none;
 	float: left; 
-	background-color: #333;
+	background-color:rgba(237,239,239,.3);
 	padding:20px;
 }
 .topnav a{
@@ -20,16 +20,17 @@
 	padding:14px 16px;
 
 }
-.topnav a:hover{
+.topnav a.hover{
 	background-color: #ddd;
 	color:violet;
-	padding: 10px;
+	padding: 14px 16px;
 }
 
 /*color to the active/current link*/
 .topnav a.active{
-	background-color: ##fcfffe;
+	background-color: #fcfffe;
 	color:violet;
+	padding: 14px 16px;
 }
 
 .clearfix:after{
@@ -41,32 +42,26 @@
 	height:0;
 }
 .intro{
-	float:left;
-	background-color:#221054;
-	border-style: dotted;
-	border-color: #A7E8DC;
-	padding:10px;
-	margin:auto;
+	float:center;
+	background-color:rgba(34,16,84,.6);
+	padding:30px;
+	margin:40px;
+	text-align: center;
 }	
 
-.columnright{
-	float:right;
-
-}
 .coupon {
     border: 5px dotted #bbb; /* Dotted border */
     border-radius: 15px; /* Rounded border */
-    margin:none 0px; /* Center the coupon */
-    width: 25%;
+    margin: 2px; /* Center the coupon */
+    width: 15%;
     float:left;
 }
 
 .container {
-    padding: 2px 40px;
+    padding: 2px 20px;
     background-color: #221054;
     background-size: contain;
     margin:2px;
-
 }
 
 .promo {
@@ -75,7 +70,7 @@
 }
 
 .expire {
-    color: red;
+    color: pink;
 }
 
 .row {
@@ -84,15 +79,22 @@
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
+/* Create three equal columns that sits next to each other */
 .column {
-  flex: 50%;
-  padding: 0 4px;
+  float: left;
+  width:33.33%;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 2px;
   vertical-align: middle;
+}
+
+.bottomcontainer{
+	padding: 2px 20px;
+    background-color: #221054;
+    background-size: contain;
+    margin:2px;
 }
 
 
@@ -115,9 +117,12 @@ h1{
 }
 
 h2{
-	text-align: center;
-	color:#A7E8DC;
+	text-align:center;
+	color:rgb(51,204,153);
 	margin:10px;
+	font-size:32px;
+	font-family: sans-serif;
+	font-weight:bold;
 }
 h3{
 	text-align:center;
@@ -127,7 +132,7 @@ h3{
 
 p{
 	font-size:16px;
-	text-align:left;
+	text-align:center;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -139,7 +144,7 @@ ul{
 div{
 	font-size:1.2em;
 	display:inline-block;
-	margin: 30px;
+	margin: 10px;
 }
 
 a{
@@ -149,42 +154,62 @@ footer{
 	text-align: center;
 	background-color: #302f33;
 	padding:10px;
+	margin: 30px;
+	width: 100%
 }
 
 
 #slogan{
-	text-orientation: italic;
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 	margin:2px;
+
 }
+
 #columnleft{
-	background-color: #4eed4e;
+	background-color:rgba(0,0,0,.5);
 	width: 100%;
+	padding:10px;
 }
-#two_column{
-	background-color: white;
-	border: 1px white solid;
+#three_column{
+	background-color: rgba(0,0,0,.5);
 	padding:2px;
-	margin:auto 0;
+
 
 }
+
 #top {
-	background-color:#b32963;
-	border:1px white solid;
+	background-color:rgba(171,18,82,.3);
 	padding:5px;
 	float:right;
-	width:62%;
+	width:15%;
+	font-size:12px;
+	display:inline;
 }
 
-#bottom{
-	background-color: #676277 ;
-	border:1px white solid;
-	padding:5px;
-	float:right;
-	width:62%;
+hr {
+	width: 25%
+}
+
+#demo{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#locations{
+	font-weight: bold;
 
 }
+
+#Events{
+	margin-top: 40px;
+	padding: 20px;
+	font-size-adjust: 24px;
+	float: left;
+	display: inline;
+}
+
+
 
 
 
