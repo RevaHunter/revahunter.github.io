@@ -28,7 +28,7 @@
 
 /*color to the active/current link*/
 .topnav a.active{
-	background-color: ##fcfffe;
+	background-color: #fcfffe;
 	color:violet;
 }
 
@@ -180,9 +180,18 @@ footer{
 
 }
 
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: rgba();
+    }
 
 
-
+div.top nav{
+	width: 80%;
+	margin:auto;
+	border: 3px solid #73AD21;
+	}
+}
 
 
 
