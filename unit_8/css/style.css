@@ -208,7 +208,10 @@ hr {
 
 @media screen and (max-width: 600px){
 /* Add a black background color to the top navigation */
-
+.topnav {
+    background-color:#00134d;
+    overflow: hidden;
+ }
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -309,7 +312,7 @@ link that contains should open and close the topnav (.icon) */
 	padding:5px;
 	float:right;
 	width:100%;
-	font-size:12px;
+	font-size:1.5em;
 	display:inline;
   }
 

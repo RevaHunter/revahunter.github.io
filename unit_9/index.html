@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<title>Sweet Planet Dessert Shop</title>	
+</head>
+<body>
+<!--head-->
+	<h1>Sweet Planet Dessert Shop</h1>
+	<section>
+		<div class="topnav" id="myTopnav">
+				<a class="active" href="#home">home</a>
+				<a href="./menu_page.html">menu</a>
+				<a href="#locations">locations</a>
+				<a href="#products">products</a>
+				<a href="#extra">extra</a>
+				<a href="mailto:hunters85@gmail.com">contact us</a>
+				<input type="text" placeholder="Search..">
+				<a href="javascript:void (0); class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		<div id="myAccordion" class="w3-card-2 w3-light-purple w3-center w3-hide-large" style="display: block; cursor: default;">
+ <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-xlarge w3-right">×</a><br>
+ <div class="w3-container w3-padding-32">
+  <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('menu');" href="javascript:void(0);">menu <i class="fa fa-caret-down"></i></a>
+  	<div id="sectionxs_menu" class="w3-white w3-show"></div>
+  
+  <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('locations')" href="javascript:void(0);">locations <i class="fa fa-caret-down"></i></a>
+  	<div id="sectionxs_locations" class="w3-white w3-show"></div>
+  
+  <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('products')" href="javascript:void(0);">products <i class="fa fa-caret-down"></i></a>
+  	<div id="sectionxs_products" class="w3-white w3-show"></div>
+  
+  <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('extra')" href="javascript:void(0);">extra <i class="fa fa-caret-down"></i></a>
+  	<div id="sectionxs_extra" class="w3-white w3-show"></div>
+ </div>
+</div>
+	</section>
+				<section>
+			<div class="intro">
+				<div id="slogan">
+					<h2><strong>Feel the power of Sweet Planet.</strong></h2>
+				</div>
+		<p> Reaching for the stars is what we do <br>with out of this world treats!</p>
+		<p>We're not another dessert shop. We are THE sweet spot for your taste buds. <br>
+		Through every pastry, beverage, and cold treat, you can count on us to take you to your Delicious Utopia.</p> 
+		</div>
+		</section>
+<!--product-->
+		<section>
+			<div id="columnleft">
+				<div id="scroll">
+				<img src="images/AdobeStock_185349011.jpeg" alt="Black Ice Cream" style="width:300px;height:200px;padding:10px;border:10px">
+
+				<img src="images/AdobeStock_163641576.jpeg" alt="Cones" style="width:300px;height:200px;padding:10px;border:10px">
+
+				<img src="images/AdobeStock_141509516.jpeg" alt="Ice Cream Bays" style="width:300px;height:200px;padding:10px;border:10px">
+
+				<img src="images/AdobeStock_171799692_Preview.jpeg" alt="Ice Cream" style="width:300px;height:200px;padding:10px;border:10px">
+				
+				</div>
+			</div>
+		</section>
+		<div class="coupon">
+	<div class="container">
+	</div>
+<!--coupon-->
+	<img src="images/AdobeStock_106605366.jpeg" alt= "Black Ice Cream" style="width:100%;">
+		<div class="container" style= "background-color:#221054">
+			<section>
+			<img src="images/sweet planet icon.png" alt="Icon" style="width:100px; height: 80px; padding:10px";>
+			</section>
+			<h3><b>20% OFF YOUR PURCHASE</b></h3>
+			<p>Lorem ipsum dolor sit amet.</p></div>
+			<div class="container">
+				<p> Use Promo Code: <span class="promo">ICECREAM20</span></p>
+					<p class="expire">Expires: Feb 28,2018</p>
+				</div>
+			
+		</div>
+	</div>
+			
+	<section id="three_column" class="clearfix">
+			<article id="feature_ice_cream">
+					<img src="images/galaxy-ice-cream-ftr.jpg" alt= "Blue Ice Cream"; class="center" style="width: 50%" display="inline-block" padding-left="20px">
+					<h2>Introducing</h2>
+					<h3>Blue Meteor Swirl</h3>
+				<div class="game">
+					<h3>Galaxy Quest Game</h3>
+					<h4>Coming soon!</h4>
+					<!-- Display the countdown timer in an element -->
+					<p id="demo"></p>
+
+						<script>
+					// Set the date we're counting down to
+					var countDownDate = new Date("March 5, 2018 15:37:25").getTime();
+
+					// Update the count down every 1 second
+					var x = setInterval(function() {
+
+ 					 // Get todays date and time
+ 					 var now = new Date().getTime();
+
+ 					 // Find the distance between now an the count down date
+ 					 var distance = countDownDate - now;
+
+ 						 // Time calculations for days, hours, minutes and seconds
+ 					 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+					  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+ 					 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  					var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  					// Display the result in the element with id="demo"
+ 					 document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  				+ minutes + "m " + seconds + "s ";
+
+ 					 // If the count down is finished, write some text 
+ 			 if (distance < 0) {
+			   clearInterval(x);
+    	document.getElementById("demo").innerHTML = "EXPIRED";
+  	}
+	}, 1000);
+			</script>
+			</div>
+		</article>
+	</section>
+<!--event-->
+<section id="bottomcontainer">
+	<div class="container2")>
+		<article id="Events">
+	<h2>Social Orbit</h2>
+	<!-- START HEADER -->
+		<table cellpadding="5" cellspacing="0" width="95%" id="current-events" >
+  		  <thead>
+        <tr>
+            <th id="event-time" width="250"> Date/Time<br/>Event Category</th>
+            <th id="event-description" width="*">Event</th>
+        </tr>
+    </thead>
+    <tbody>
+	<!-- END HEADER -->
+	<!-- START SINGLE FORMAT -->
+        <tr>
+            <td>
+                Artist Showcase
+ 
+                <span style="color:rgb(51,204,153)">Friday and Saturday @7pm</a>
+            </td>
+            <td>
+ 
+	<p style="font-weight: bolder; font-size: <span class=18px">MT Cruse</p>
+ 
+                    <a href="#_EVENTPAGEURL" style="text-decoration:underline;">
+                       Live music night
+                    </a>
+                </p>
+                First flight Fridays<br/>
+                <a href="#_EVENTPAGEURL">Read more ...</a><br/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                Paint Night<br>
+ 
+                <span style="color:rgb(51,204,153)">2nd and 4th Wednesdays @7pm</a>
+            </td>
+            <td>
+ 
+	<p style="font-weight:bolder; font-size: <span class=18px">Limes</p>
+ 
+                    <a href="#_EVENTPAGEURL" style="text-decoration:underline;">
+                       Live music night
+                    </a>
+                </p>
+                First flight Fridays<br/>
+                <a href="#_EVENTPAGEURL">Read more ...</a><br/>
+            </td>
+            
+        </tr>
+	<!-- END SINGLE FORMAT -->
+	<!-- START FOOTER -->
+    </tbody>
+	</table>
+	<!-- END FOOTER -->
+	</div>
+	
+	</article>
+	<article id="top">
+		<h2>News</h2>
+			<div class='Sign up form'>
+				<h3>Sign up for Planet Rewards</h3>
+					<form>
+						First name: <input type="text" name="fname"><br>
+  						Last name: <input type="text" name="lname"><br>
+  						Email address:<input type="text" name="email"><br>
+  						<input type="submit" value="Submit">
+					</form>
+				</div>
+					<hr>
+				<div class='locations'>
+					<h4>Visit our new <strong>Planets</strong></h4>
+					<a href="location1.asp">West Legacy Park</a>
+					<a href="location2.asp">Greenville Station</a>
+					<a href="location3.asp">McKinney Towne</a>
+					<a href="location4.asp">Deep Ellum</a>
+				</div>
+				<hr>
+				<div id="columnright"> 
+						<h3>Locate your Planet</h3>
+						<map name="planetmap">
+  							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.7191055616695!2d-96.78612572230475!3d32.82103978452265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9f2474f20d83%3A0xc43a172072b5709!2sVelvet+Taco!5e0!3m2!1sen!2sus!4v1517129388302" width="200px" height="100px" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</map>
+				</div>
+
+			</article>
+		</div>
+			
+
+	</section>
+
+<!--footer-->
+	<footer>Copyright 2018, Sweet Planet Shop  
+		<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-snapchat"></a></footer>
+		
+
+</body>
+</html>

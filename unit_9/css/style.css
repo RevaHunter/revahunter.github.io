@@ -1,0 +1,336 @@
+/*this is background image*/
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans:600|Poppins:200');
+
+/*Add a black background color to the top navigation with white border*/
+.topnav{
+	display:inline-block;
+	width:100%;
+	font-size:17px;
+	color:#333;
+	margin:5px;
+	border-bottom-color: #fff;
+	overflow: none;
+	float: left; 
+	background-color:rgba(237,239,239,.3);
+	padding:20px;
+}
+.topnav a{
+	color:#f2f2f2;
+	text-align:center;
+	padding:14px 16px;
+
+}
+.topnav a.hover{
+	background-color: #ddd;
+	color:violet;
+	padding: 14px 16px;
+}
+
+/*color to the active/current link*/
+.topnav a.active{
+	background-color: #fcfffe;
+	color:violet;
+	padding: 14px 16px;
+}
+
+.clearfix:after{
+	visibility:hidden;
+	display: block;
+	font-size:0;
+	content: "";
+	clear:both;
+	height:0;
+}
+.intro{
+	float:center;
+	background-color:rgba(34,16,84,.6);
+	padding:30px;
+	margin:40px;
+	text-align: center;
+}	
+
+.coupon {
+    border: 5px dotted #bbb; /* Dotted border */
+    border-radius: 15px; /* Rounded border */
+    margin: 2px; /* Center the coupon */
+    width: 15%;
+    float:left; 
+}
+
+.container {
+    padding: 2px 20px;
+    background-color: #221054;
+    background-size: contain;
+    margin:2px;
+}
+
+.promo {
+    background: #676277;
+    padding: 2px 16px;
+}
+
+.expire {
+    color: pink;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+/* Create three equal columns that sits next to each other */
+.column {
+  float: left;
+  width:33.33%;
+}
+
+.column img {
+  margin-top: 2px;
+  vertical-align: middle;
+}
+
+
+
+body{
+	text-align: center;
+	background:url("https://static.pexels.com/photos/110854/pexels-photo-110854.jpeg") ;
+	background-size:cover ;
+	background-repeat:no-repeat;
+	color:#fff;
+	font-family:Helvetica;
+}
+map {
+    display: inline;
+
+}
+
+h1{
+	font-size:54px;
+	font-family: 'Expletus Sans', cursive;
+}
+
+h2{
+	text-align:center;
+	color:rgb(51,204,153);
+	margin:10px;
+	font-size:32px;
+	font-family: sans-serif;
+	font-weight:bold;
+}
+h3{
+	text-align:center;
+	color:#fff;
+	margin:10px;
+}
+
+p{
+	font-size:16px;
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	display: inline-block; 
+	list-style: none;
+}
+
+div{
+	font-size:1.2em;
+	display:inline-block;
+	margin: 10px;
+}
+
+a{
+	color:#78FFF4;
+}
+footer{
+	text-align: center;
+	background-color: #302f33;
+	padding:10px;
+	margin: 30px;
+	width: 100%
+}
+
+
+#slogan{
+	font-size:14px;
+	font-family: 'Poppins', sans-serif;
+	margin:2px;
+
+}
+
+#columnleft{
+	background-color:rgba(0,0,0,.5);
+	width: 100%;
+	padding:10px;
+}
+#three_column{
+	background-color: rgba(0,0,0,.5);
+	padding:2px;
+
+}
+
+#top {
+	background-color:rgba(171,18,82,.3);
+	padding:5px;
+	float:right;
+	width:40%;
+	font-size:12px;
+	display:inline;
+}
+
+hr {
+	width: 25%
+}
+
+#demo{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#locations{
+	font-weight: bold;
+
+
+}
+
+#Events{
+	margin-top: 40px;
+	padding: 20px;
+	font-size-adjust: 24px;
+	float: left;
+	display: inline;
+}
+
+/*mobile view*/
+
+@media screen and (max-width: 600px){
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#00134d;
+    overflow: hidden;
+ }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+ }
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+ }
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the 
+link that contains should open and close the topnav (.icon) */
+
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon{
+		float:right;
+		display: block;
+		}
+	}
+
+	/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class 
+	makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  footer{
+	text-align: center;
+	background-color:#00134d;
+	width:100%;
+
+ }
+
+  .coupon {
+    border: 5px dotted #bbb; /* Dotted border */
+    border-radius: 15px; /* Rounded border */
+    margin: 40px; /* Center the coupon */
+    width: 80%;
+    float:center; 
+ }
+
+  .container{
+  	float:center;
+  	display:inline-block;
+  	text-align:center;
+  	width:90%;
+  }
+
+  .promo {
+    background: #676277;
+    padding: 2px 16px;
+    width: 100%
+  }
+
+  .expire {
+    color: pink;
+    width: 100%;
+  }
+
+ .row {
+  	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
+  	width:100%;
+  }
+
+ #top {
+	background-color:rgba(171,18,82,.5);
+	padding:5px;
+	float:right;
+	width:100%;
+	font-size:1.5em;
+	display:inline;
+  }
+
+ .clearfix:after{
+	visibility:hidden;
+	display: block;
+	font-size:0;
+	content: "";
+	clear:both;
+	height:0;
+ }
+
+@media screen and (min-width:769px){#myAccordion,.hidesm{display:none !important;}}
+}
+		
+
+
+
+
+
+
