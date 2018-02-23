@@ -2,11 +2,12 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/locations.css">
 	<!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
+<link rel="menu" href="./menu_page.html" type="./menu_page.html">
 	<title>Sweet Planet Dessert Shop</title>	
 </head>
 <body>
@@ -15,13 +16,12 @@
 	<section>
 		<div class="topnav" id="myTopnav">
 				<a href="index.html">home</a>
-				<a href="menu.html">menu</a>
-				<a href="locations.html">locations</a>
-				<a href="products.html">products</a>
-				<a href="extra.html">extra</a>
+				<a href="./menu_page.html">menu</a>
+				<a href="#locations">locations</a>
+				<a href="#products">products</a>
+				<a href="#extra">extra</a>
 				<a href="mailto:hunters85@gmail.com">contact us</a>
 				<input type="text" placeholder="Search..">
-				
 		</div>
 		<div id="myAccordion" class="w3-card-2 w3-light-purple w3-center w3-hide-large" style="display: block; cursor: default;">
  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-xlarge w3-right">×</a><br>
@@ -37,35 +37,23 @@
   
   <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('extra')" href="javascript:void(0);">extra <i class="fa fa-caret-down"></i></a>
   	<div id="sectionxs_extra" class="w3-white w3-show"></div>
-     <a href="javascript:void (0); class="icon" onclick="myFunction()">&#9776;</a>
  </div>
 </div>
 	</section>
 				<section>
-			<div class="intro">
-				<div id="slogan">
-					<h2><strong>Feel the power of Sweet Planet.</strong></h2>
+				<div id="location">
+					<h2><strong>Find your Sweet Planet</strong></h2>
 				</div>
-		<p> Reaching for the stars is what we do <br>with out of this world treats!</p>
-		<p>We're not another dessert shop. We are THE sweet spot for your taste buds. <br>
-		Through every pastry, beverage, and cold treat, you can count on us to take you to your Delicious Utopia.</p> 
+		<p> Reaching for the stars is what we do</p>
+		<div id="locationsWrapper">
+    <a id="content"></a>
+    <h3>Locate your Planet</h3>
+    	<iframe src="http://locations.in-n-out.com/map/" title="Locations Map" width="700px" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>	
+			<div class="clear"></div>
 		</div>
 		</section>
 <!--product-->
-		<section>
-			<div id="columnleft">
-				<div id="scroll">
-				<img src="images/AdobeStock_185349011.jpeg" alt="Black Ice Cream" style="width:300px;height:200px;padding:10px;border:10px">
-
-				<img src="images/AdobeStock_163641576.jpeg" alt="Cones" style="width:300px;height:200px;padding:10px;border:10px">
-
-				<img src="images/AdobeStock_141509516.jpeg" alt="Ice Cream Bays" style="width:300px;height:200px;padding:10px;border:10px">
-
-				<img src="images/AdobeStock_171799692_Preview.jpeg" alt="Ice Cream" style="width:300px;height:200px;padding:10px;border:10px">
-				
-				</div>
-			</div>
-		</section>
 		<div class="coupon">
 	<div class="container">
 	</div>
@@ -84,51 +72,7 @@
 			
 		</div>
 	</div>
-			
-	<section id="three_column" class="clearfix">
-			<article id="feature_ice_cream">
-					<img src="images/galaxy-ice-cream-ftr.jpg" alt= "Blue Ice Cream"; class="center" style="width: 50%" display="inline-block" padding-left="20px">
-					<h2>Introducing</h2>
-					<h3>Blue Meteor Swirl</h3>
-				<div class="game">
-					<h3>Galaxy Quest Game</h3>
-					<h4>Coming soon!</h4>
-					<!-- Display the countdown timer in an element -->
-					<p id="demo"></p>
 
-						<script>
-					// Set the date we're counting down to
-					var countDownDate = new Date("March 5, 2018 15:37:25").getTime();
-
-					// Update the count down every 1 second
-					var x = setInterval(function() {
-
- 					 // Get todays date and time
- 					 var now = new Date().getTime();
-
- 					 // Find the distance between now an the count down date
- 					 var distance = countDownDate - now;
-
- 						 // Time calculations for days, hours, minutes and seconds
- 					 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-					  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
- 					 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  					var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  					// Display the result in the element with id="demo"
- 					 document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  				+ minutes + "m " + seconds + "s ";
-
- 					 // If the count down is finished, write some text 
- 			 if (distance < 0) {
-			   clearInterval(x);
-    	document.getElementById("demo").innerHTML = "EXPIRED";
-  	}
-	}, 1000);
-			</script>
-			</div>
-		</article>
-	</section>
 <!--event-->
 <section id="bottomcontainer">
 	<div class="container2")>
@@ -223,6 +167,8 @@
 			
 
 	</section>
+	</div>
+</section>>
 		
 
 <!--footer-->
@@ -231,16 +177,6 @@
 				<a href="#" class="fa fa-twitter"></a>
 				<a href="#" class="fa fa-instagram"></a>
 				<a href="#" class="fa fa-snapchat"></a></footer>
-        
-        <div class="topnav" id="myTopnav">
-				<a href="menu.html">menu</a>
-				<a href="locations.html">locations</a>
-				<a href="products.html">products</a>
-				<a href="extra.html">extra</a>
-				<a href="mailto:hunters85@gmail.com">contact us</a>
-				<input type="text" placeholder="Search..">
-
-		</div>
 		
 
 </body>
