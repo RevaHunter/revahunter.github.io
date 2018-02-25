@@ -1,0 +1,101 @@
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column  {
+        width: 50%;
+    }
+}
+@media screen and (min-width:769px){#myAccordion,.hidesm{display:none !important;}}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column  {
+        width: 100%;
+    }
+}
+ul{
+    display: inline-block; 
+    list-style: none;
+}
+body{
+    text-align: auto;
+    color:#fff;
+    font-family:Arial;
+}
+
+h2 {
+    text-align:center;
+    color:rgb(51,204,153);
+    margin:10px;
+    font-size:24px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+h3 {
+    text-align:center;
+    color:#fff;
+    margin:10px;
+    font-size: 24px;
+    font-style: italic;
+}
+.instructioncontainer {
+    font-size: 20px;
+
+}
+video {
+    float:center;
+    display:inline-block;
+    border-style: dotted;
+    border-color: #fff;
+}
+#four_column {
+    background-color:rgba(0,0,0,.5);
+    width: 100%;
+    padding:10px;
+    display: inline-block;
+}
+
+.column1,.column2,.column3,.column4 {
+    flex-wrap: wrap;
+    display: inline-block;
+    background-color:rgba(171,18,82,.2);
+    padding:0 4px;
+    width:22%;
+    font-size: 100%;
+    vertical-align: top;
+    line-height: 1.2em;
+}
+.row1,.row2,.row3,.row4 {
+    flex-wrap: wrap;
+    display: inline-block;
+    background-color:rgba(51,204,153,.8);
+    padding:0 4px;
+    width:100%;
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 1.2em;
+}
+ .clearfix:after {
+    visibility:hidden;
+    display: block;
+    font-size:0;
+    content: "";
+    clear:both;
+    height:0;
+ }
